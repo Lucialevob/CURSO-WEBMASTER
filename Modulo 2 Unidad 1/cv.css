@@ -1,101 +1,126 @@
-/*font-family: 'Climate Crisis', cursive;*/
+<style>@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+</style>* {
+    margin: 0;
+    padding: 0;
+}
 
 
 
-.lucia:hover{
-
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: pink;
-}
-
-.lucia{
-    color: black;
-    text-decoration: none;
-}
-
-.formu{
-    color: violet;
-    text-decoration: none;
-}
-.formu:hover{
-    text-decoration: underline ;
-    color: darkviolet;
-
-}
-
-.Contenedor{
-    background-color: orange;
-    border-radius: 12px;
     text-align: center;
-    padding: 15px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 100px;
 
 }
 
-h1{
-    font-family: 'Rubik Iso', cursive;
 
-text-align: center;
-}
-
-
-.hola{
+h2 {
     text-align: left;
+    color: pink;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    text-decoration: underline;
+    padding: 10px;
+
+
+
 }
-p{
-    font-family: Arial, Helvetica, sans-serif;}
-
-    ol{
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
- 
-    }
-
-    ul{
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    #azul p{
-        color: brown;
-        text-align: center;
-        text-shadow: 3px 4px 2px rgba(0,0,0,0.6);
-
-        
-        
-        
-    }
-
-    #azul{ 
-        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 29%, rgba(160,5,175,1) 54%, rgba(0,212,255,1) 100%);
-        width: 600px;
-        height: 300px;
-        border: 2px solid black;
-        margin-top: 100px;
-        padding-top: 120px;
-        box-sizing: border-box;
-        border-style: dotted;
-        box-shadow: -2px 12px 20px -7px rgba(0,0,0,0.75);
-        margin-bottom: 100px;
 
 
-    }
+a:hover {
+    color: deeppink;
+}
 
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: pink;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 
-    .columna{
-        column-count: 3;
-        background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-        column-gap: 18px;
-        padding: 15px;
-        border-radius: 18px 141px 18px 18px;
-        box-sizing: border-box;
-        
+}
 
-    }
+.destacados {
 
-   .primerparrafo{
+    color: palevioletred;
+
+}
+
+h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(70, 35, 10);
+}
+
+h5 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.negrita {
+    font-weight: bold;
+    color: red;
+}
+
+#Cajita {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
     text-align: center;
-   }
+    box-shadow: 0 0 10px #1c92d2;
+}
 
-.listapelis{
-font-style: italic;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+#Cajita {
+    background-color: bisque;
+    width: 200px;
+    height: 100px;
+    padding: 5px;
+    box-sizing: content-box;
+    margin-top: 20px;
+    border-radius: 10%;
+    margin-bottom: 30px;
+    border: 2px solid black;
+}
 
+p {
+    font-family: 'Playfair Display', serif;
+    color: black;
+}
+
+
+.contenedor {
+    background-image: url(./foto\ de\ juliana.jpg);
+    height: 100VH;
+    background-size: cover;
+}
+
+.Contenedor-info {
+    background: #1c92d2;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f2fcfe, #1c92d2);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.contenedor-dos {
+    background: rgb(193, 16, 254);
+    background: radial-gradient(circle, rgba(193, 16, 254, 0.671990759578752) 0%, rgba(16, 250, 100, 1) 52%, rgba(0, 212, 255, 1) 100%);
+
+}
+
+.holaparrafo{
+    font-family: Arial, Helvetica, sans-serif;
+    column-gap: 30px;
+    column-count: 3;
+    
 }

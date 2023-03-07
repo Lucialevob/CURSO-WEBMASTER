@@ -1,0 +1,101 @@
+/*font-family: 'Climate Crisis', cursive;*/
+
+
+
+.lucia:hover{
+
+    color: pink;
+}
+
+.lucia{
+    color: black;
+    text-decoration: none;
+}
+
+.formu{
+    color: violet;
+    text-decoration: none;
+}
+.formu:hover{
+    text-decoration: underline ;
+    color: darkviolet;
+
+}
+
+.Contenedor{
+    background-color: orange;
+    border-radius: 12px;
+    text-align: center;
+    padding: 15px;
+
+}
+
+h1{
+    font-family: 'Rubik Iso', cursive;
+
+text-align: center;
+}
+
+
+.hola{
+    text-align: left;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;}
+
+    ol{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+ 
+    }
+
+    ul{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #azul p{
+        color: brown;
+        text-align: center;
+        text-shadow: 3px 4px 2px rgba(0,0,0,0.6);
+
+        
+        
+        
+    }
+
+    #azul{ 
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 29%, rgba(160,5,175,1) 54%, rgba(0,212,255,1) 100%);
+        width: 600px;
+        height: 300px;
+        border: 2px solid black;
+        margin-top: 100px;
+        padding-top: 120px;
+        box-sizing: border-box;
+        border-style: dotted;
+        box-shadow: -2px 12px 20px -7px rgba(0,0,0,0.75);
+        margin-bottom: 100px;
+
+
+    }
+
+
+    .columna{
+        column-count: 3;
+        background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+        column-gap: 18px;
+        padding: 15px;
+        border-radius: 18px 141px 18px 18px;
+        box-sizing: border-box;
+        
+
+    }
+
+   .primerparrafo{
+    text-align: center;
+   }
+
+.listapelis{
+font-style: italic;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}

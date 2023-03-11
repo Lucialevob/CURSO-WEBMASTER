@@ -1,0 +1,45 @@
+body{
+    background-color:rgb(246, 246, 238);
+}
+
+
+img:hover{
+cursor: pointer;
+}
+
+p{
+    cursor: pointer;
+}
+
+h5{
+    cursor: pointer;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+.card-img-top{
+    height:550px;
+    width: 290px;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+navbar-brand{
+
+
+}
+navbar-expand-lg bg-body-tertiary:hover{
+    cursor: pointer;
+    border: 1px solid aliceblue;
+}
